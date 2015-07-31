@@ -2,7 +2,7 @@
   "name": "chan.js",
   "version": "1.0.0",
   "description": "JavaScript channel implementation",
-  "main": "chan.js",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/pavel/chan.js.git"
@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/pavel/chan.js/issues"
   },
-  "homepage": "https://github.com/pavel/chan.js"
+  "homepage": "https://github.com/pavel/chan.js",
+	"scripts": {
+		"test": "jasmine"
+	},
+  "devDependencies": {
+    "jasmine": "^2.3.1"
+  }
 }
